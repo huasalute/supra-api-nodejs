@@ -32,7 +32,7 @@ class RedisAgent {
    * ------------------------------
    */
 
-  setUploadTokensList (listOfUuids, ttl = 15 * 60) { // ttl 15min
+  setUploadTokensList (listOfUuids, ttl = 15 * 61) { // ttl 15min
     assert.array(listOfUuids, { required: true })
     assert.integer(ttl)
 
